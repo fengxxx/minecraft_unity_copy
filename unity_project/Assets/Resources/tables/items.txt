@@ -1,0 +1,225 @@
+Icon	Dec	Hex	Name	Item
+256	100	minecraft:iron_shovel	Iron Shovel D
+257	101	minecraft:iron_pickaxe	Iron Pickaxe D
+258	102	minecraft:iron_axe	Iron Axe D
+259	103	minecraft:flint_and_steel	Flint and Steel D
+260	104	minecraft:apple	Apple
+261	105	minecraft:bow	Bow D
+262	106	minecraft:arrow	Arrow
+263	107	minecraft:coal	Coal B
+264	108	minecraft:diamond	Diamond
+265	109	minecraft:iron_ingot	Iron Ingot
+266	10A	minecraft:gold_ingot	Gold Ingot
+267	10B	minecraft:iron_sword	Iron Sword D
+268	10C	minecraft:wooden_sword	Wooden Sword D
+269	10D	minecraft:wooden_shovel	Wooden Shovel D
+270	10E	minecraft:wooden_pickaxe	Wooden Pickaxe D
+271	10F	minecraft:wooden_axe	Wooden Axe D
+272	110	minecraft:stone_sword	Stone Sword D
+273	111	minecraft:stone_shovel	Stone Shovel D
+274	112	minecraft:stone_pickaxe	Stone Pickaxe D
+275	113	minecraft:stone_axe	Stone Axe D
+276	114	minecraft:diamond_sword	Diamond Sword D
+277	115	minecraft:diamond_shovel	Diamond Shovel D
+278	116	minecraft:diamond_pickaxe	Diamond Pickaxe D
+279	117	minecraft:diamond_axe	Diamond Axe D
+280	118	minecraft:stick	Stick
+281	119	minecraft:bowl	Bowl
+282	11A	minecraft:mushroom_stew	Mushroom Stew
+283	11B	minecraft:golden_sword	Golden Sword D
+284	11C	minecraft:golden_shovel	Golden Shovel D
+285	11D	minecraft:golden_pickaxe	Golden Pickaxe D
+286	11E	minecraft:golden_axe	Golden Axe D
+287	11F	minecraft:string	String
+288	120	minecraft:feather	Feather
+289	121	minecraft:gunpowder	Gunpowder
+290	122	minecraft:wooden_hoe	Wooden Hoe D
+291	123	minecraft:stone_hoe	Stone Hoe D
+292	124	minecraft:iron_hoe	Iron Hoe D
+293	125	minecraft:diamond_hoe	Diamond Hoe D
+294	126	minecraft:golden_hoe	Golden Hoe D
+295	127	minecraft:wheat_seeds	Seeds
+296	128	minecraft:wheat	Wheat
+297	129	minecraft:bread	Bread
+298	12A	minecraft:leather_helmet	Leather Cap D
+299	12B	minecraft:leather_chestplate	Leather Tunic D
+300	12C	minecraft:leather_leggings	Leather Pants D
+301	12D	minecraft:leather_boots	Leather Boots D
+302	12E	minecraft:chainmail_helmet	Chain Helmet D
+303	12F	minecraft:chainmail_chestplate	Chain Chestplate D
+304	130	minecraft:chainmail_leggings	Chain Leggings D
+305	131	minecraft:chainmail_boots	Chain Boots D
+306	132	minecraft:iron_helmet	Iron Helmet D
+307	133	minecraft:iron_chestplate	Iron Chestplate D
+308	134	minecraft:iron_leggings	Iron Leggings D
+309	135	minecraft:iron_boots	Iron Boots D
+310	136	minecraft:diamond_helmet	Diamond Helmet D
+311	137	minecraft:diamond_chestplate	Diamond Chestplate D
+312	138	minecraft:diamond_leggings	Diamond Leggings D
+313	139	minecraft:diamond_boots	Diamond Boots D
+314	13A	minecraft:golden_helmet	Golden Helmet D
+315	13B	minecraft:golden_chestplate	Golden Chestplate D
+316	13C	minecraft:golden_leggings	Golden Leggings D
+317	13D	minecraft:golden_boots	Golden Boots D
+318	13E	minecraft:flint	Flint
+319	13F	minecraft:porkchop	Raw Porkchop
+320	140	minecraft:cooked_porkchop	Cooked Porkchop
+321	141	minecraft:painting	Painting
+322	142	minecraft:golden_apple	Golden Apple B
+323	143	minecraft:sign	Sign
+324	144	minecraft:wooden_door	Oak Door
+325	145	minecraft:bucket	Bucket
+326	146	minecraft:water_bucket	Water Bucket
+327	147	minecraft:lava_bucket	Lava Bucket
+328	148	minecraft:minecart	Minecart
+329	149	minecraft:saddle	Saddle
+330	14A	minecraft:iron_door	Iron Door
+331	14B	minecraft:redstone	Redstone
+332	14C	minecraft:snowball	Snowball
+333	14D	minecraft:boat	Boat
+334	14E	minecraft:leather	Leather
+335	14F	minecraft:milk_bucket	Milk
+336	150	minecraft:brick	Brick
+337	151	minecraft:clay_ball	Clay
+338	152	minecraft:reeds	Sugar Cane
+339	153	minecraft:paper	Paper
+340	154	minecraft:book	Book
+341	155	minecraft:slime_ball	Slimeball
+342	156	minecraft:chest_minecart	Minecart with Chest
+343	157	minecraft:furnace_minecart	Minecart with Furnace
+344	158	minecraft:egg	Egg
+345	159	minecraft:compass	Compass
+346	15A	minecraft:fishing_rod	Fishing Rod D
+347	15B	minecraft:clock	Clock
+348	15C	minecraft:glowstone_dust	Glowstone Dust
+349	15D	minecraft:fish	Raw Fish B
+350	15E	minecraft:cooked_fish	Cooked Fish B
+351	15F	minecraft:dye	Dye B
+352	160	minecraft:bone	Bone
+353	161	minecraft:sugar	Sugar
+354	162	minecraft:cake	Cake
+355	163	minecraft:bed	Bed
+356	164	minecraft:repeater	Redstone Repeater
+357	165	minecraft:cookie	Cookie
+358	166	minecraft:filled_map	Map B
+359	167	minecraft:shears	Shears D
+360	168	minecraft:melon	Melon
+361	169	minecraft:pumpkin_seeds	Pumpkin Seeds
+362	16A	minecraft:melon_seeds	Melon Seeds
+363	16B	minecraft:beef	Raw Beef
+364	16C	minecraft:cooked_beef	Steak
+365	16D	minecraft:chicken	Raw Chicken
+366	16E	minecraft:cooked_chicken	Cooked Chicken
+367	16F	minecraft:rotten_flesh	Rotten Flesh
+368	170	minecraft:ender_pearl	Ender Pearl
+369	171	minecraft:blaze_rod	Blaze Rod
+370	172	minecraft:ghast_tear	Ghast Tear
+371	173	minecraft:gold_nugget	Gold Nugget
+372	174	minecraft:nether_wart	Nether Wart
+373	175	minecraft:potion	Potion B
+374	176	minecraft:glass_bottle	Glass Bottle
+375	177	minecraft:spider_eye	Spider Eye
+376	178	minecraft:fermented_spider_eye	Fermented Spider Eye
+377	179	minecraft:blaze_powder	Blaze Powder
+378	17A	minecraft:magma_cream	Magma Cream
+379	17B	minecraft:brewing_stand	Brewing Stand
+380	17C	minecraft:cauldron	Cauldron
+381	17D	minecraft:ender_eye	Eye of Ender
+382	17E	minecraft:speckled_melon	Glistering Melon
+383	17F	minecraft:spawn_egg	Spawn Egg B
+384	180	minecraft:experience_bottle	Bottle o' Enchanting
+385	181	minecraft:fire_charge	Fire Charge
+386	182	minecraft:writable_book	Book and Quill
+387	183	minecraft:written_book	Written Book
+388	184	minecraft:emerald	Emerald
+389	185	minecraft:item_frame	Item Frame
+390	186	minecraft:flower_pot	Flower Pot
+391	187	minecraft:carrot	Carrot
+392	188	minecraft:potato	Potato
+393	189	minecraft:baked_potato	Baked Potato
+394	18A	minecraft:poisonous_potato	Poisonous Potato
+395	18B	minecraft:map	Empty Map
+396	18C	minecraft:golden_carrot	Golden Carrot
+397	18D	minecraft:skull	Mob head B
+398	18E	minecraft:carrot_on_a_stick	Carrot on a Stick D
+399	18F	minecraft:nether_star	Nether Star
+400	190	minecraft:pumpkin_pie	Pumpkin Pie
+401	191	minecraft:fireworks	Firework Rocket
+402	192	minecraft:firework_charge	Firework Star
+403	193	minecraft:enchanted_book	Enchanted Book
+404	194	minecraft:comparator	Redstone Comparator
+405	195	minecraft:netherbrick	Nether Brick
+406	196	minecraft:quartz	Nether Quartz
+407	197	minecraft:tnt_minecart	Minecart with TNT
+408	198	minecraft:hopper_minecart	Minecart with Hopper
+409	199	minecraft:prismarine_shard	Prismarine Shard
+410	19A	minecraft:prismarine_crystals	Prismarine Crystals
+411	19B	minecraft:rabbit	Raw Rabbit
+412	19C	minecraft:cooked_rabbit	Cooked Rabbit
+413	19D	minecraft:rabbit_stew	Rabbit Stew
+414	19E	minecraft:rabbit_foot	Rabbit's Foot
+415	19F	minecraft:rabbit_hide	Rabbit Hide
+416	1A0	minecraft:armor_stand	Armor Stand
+417	1A1	minecraft:iron_horse_armor	Iron Horse Armor
+418	1A2	minecraft:golden_horse_armor	Golden Horse Armor
+419	1A3	minecraft:diamond_horse_armor	Diamond Horse Armor
+420	1A4	minecraft:lead	Lead
+421	1A5	minecraft:name_tag	Name Tag
+422	1A6	minecraft:command_block_minecart	Minecart with Command Block
+423	1A7	minecraft:mutton	Raw Mutton
+424	1A8	minecraft:cooked_mutton	Cooked Mutton
+425	1A9	minecraft:banner	Banner
+426	1AA	minecraft:end_crystal	End Crystal
+427	1AB	minecraft:spruce_door	Spruce Door
+428	1AC	minecraft:birch_door	Birch Door
+429	1AD	minecraft:jungle_door	Jungle Door
+430	1AE	minecraft:acacia_door	Acacia Door
+431	1AF	minecraft:dark_oak_door	Dark Oak Door
+432	1B0	minecraft:chorus_fruit	Chorus Fruit
+433	1B1	minecraft:chorus_fruit_popped	Popped Chorus Fruit
+434	1B2	minecraft:beetroot	Beetroot
+435	1B3	minecraft:beetroot_seeds	Beetroot Seeds
+436	1B4	minecraft:beetroot_soup	Beetroot Soup
+437	1B5	minecraft:dragon_breath	Dragon's Breath
+438	1B6	minecraft:splash_potion	Splash Potion
+439	1B7	minecraft:spectral_arrow	Spectral Arrow
+440	1B8	minecraft:tipped_arrow	Tipped Arrow
+441	1B9	minecraft:lingering_potion	Lingering Potion
+442	1BA	minecraft:shield	Shield
+443	1BB	minecraft:elytra	Elytra
+444	1BC	minecraft:spruce_boat	Spruce Boat
+445	1BD	minecraft:birch_boat	Birch Boat
+446	1BE	minecraft:jungle_boat	Jungle Boat
+447	1BF	minecraft:acacia_boat	Acacia Boat
+448	1C0	minecraft:dark_oak_boat	Dark Oak Boat
+449	1C1	minecraft:totem_of_undying	Totem of Undying
+450	1C2	minecraft:shulker_shell	Shulker Shell
+451	1C3		(unused)
+452	1C4	minecraft:iron_nugget	Iron Nugget
+453	1C5		(unused)
+454	1C6		(unused)
+455	1C7		(unused)
+456	1C8		(unused)
+457	1C9		(unused)
+458	1CA		(unused)
+459	1CB		(unused)
+460	1CC		(unused)
+461	1CD		(unused)
+462	1CE		(unused)
+463	1CF		(unused)
+2256	8D0	minecraft:record_13	13 Disc
+2257	8D1	minecraft:record_cat	Cat Disc
+2258	8D2	minecraft:record_blocks	Blocks Disc
+2259	8D3	minecraft:record_chirp	Chirp Disc
+2260	8D4	minecraft:record_far	Far Disc
+2261	8D5	minecraft:record_mall	Mall Disc
+2262	8D6	minecraft:record_mellohi	Mellohi Disc
+2263	8D7	minecraft:record_stal	Stal Disc
+2264	8D8	minecraft:record_strad	Strad Disc
+2265	8D9	minecraft:record_ward	Ward Disc
+2266	8DA	minecraft:record_11	11 Disc
+2267	8DB	minecraft:record_wait	Wait Disc
+2268	8DC		(unused)
+2269	8DD		(unused)
+2270	8DE		(unused)
+2271	8DF		(unused)

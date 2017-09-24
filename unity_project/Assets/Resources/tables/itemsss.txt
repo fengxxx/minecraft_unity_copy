@@ -1,0 +1,717 @@
+0	0	Air	air	0	|||||
+1	0	Stone	stone	0	textures/blocks/stone.png|||||
+1	1	Granite	stone	0	textures/blocks/stone_granite.png|||||
+1	2	Polished Granite	stone	0	textures/blocks/stone_granite_smooth.png|||||
+1	3	Diorite	stone	0	textures/blocks/stone_diorite.png|||||
+1	4	Polished Diorite	stone	0	textures/blocks/stone_diorite_smooth.png|||||
+1	5	Andesite	stone	0	textures/blocks/stone_andesite.png|||||
+1	6	Polished Andesite	stone	0	textures/blocks/stone_andesite_smooth.png|||||
+2	0	Grass	grass	0	textures/blocks/grass_top.png|||||
+3	0	Dirt	dirt	0	textures/blocks/dirt.png|||||
+3	1	Coarse Dirt	dirt	0	textures/blocks/coarse_dirt.png|||||
+3	2	Podzol	dirt	0	textures/blocks/dirt_podzol_top.png|||||
+4	0	Cobblestone	cobblestone	0	textures/blocks/cobblestone.png|||||
+5	0	Oak Wood Plank	planks	0	textures/blocks/planks_oak.png|||||
+5	1	Spruce Wood Plank	planks	0	textures/blocks/planks_spruce.png|||||
+5	2	Birch Wood Plank	planks	0	textures/blocks/planks_birch.png|||||
+5	3	Jungle Wood Plank	planks	0	textures/blocks/planks_jungle.png|||||
+5	4	Acacia Wood Plank	planks	0	textures/blocks/planks_acacia.png|||||
+5	5	Dark Oak Wood Plank	planks	0	textures/blocks/planks_big_oak.png|||||
+6	0	Oak Sapling	sapling	2	textures/blocks/sapling_oak.png|||||
+6	1	Spruce Sapling	sapling	2	textures/blocks/sapling_spruce.png|||||
+6	2	Birch Sapling	sapling	2	textures/blocks/potted/sapling_birch.png|||||
+6	3	Jungle Sapling	sapling	2	textures/blocks/potted/sapling_jungle.png|||||
+6	4	Acacia Sapling	sapling	2	textures/blocks/potted/sapling_acacia.png|||||
+6	5	Dark Oak Sapling	sapling	2	textures/blocks/sapling_oak.png|||||
+7	0	Bedrock	bedrock	0	textures/blocks/bedrock.png|||||
+8	0	Flowing Water	flowing_water	0	textures/blocks/water_overlay.png|||||
+9	0	Still Water	water	0	textures/misc/underwater.png|||||
+10	0	Flowing Lava	flowing_lava	0	textures/blocks/lava_flow.png|||||
+11	0	Still Lava	lava	0	textures/blocks/lava_still.png|||||
+12	0	Sand	sand	0	textures/blocks/sand.png|||||
+12	1	Red Sand	sand	0	textures/blocks/red_sand.png|||||
+13	0	Gravel	gravel	0	textures/blocks/gravel.png|||||
+14	0	Gold Ore	gold_ore	0	textures/blocks/gold_ore.png|||||
+15	0	Iron Ore	iron_ore	0	textures/blocks/iron_ore.png|||||
+16	0	Coal Ore	coal_ore	0	textures/blocks/coal_ore.png|||||
+17	0	Oak Wood	log	0	textures/blocks/log_oak_top.png|||||
+17	1	Spruce Wood	log	0	textures/blocks/log_spruce_top.png|||||
+17	2	Birch Wood	log	0	textures/blocks/log_birch_top.png|||||
+17	3	Jungle Wood	log	0	textures/blocks/log_jungle_top.png|||||
+18	0	Oak Leaves	leaves	0	textures/blocks/leaves_oak.png|||||
+18	1	Spruce Leaves	leaves	0	textures/blocks/leaves_spruce.png|||||
+18	2	Birch Leaves	leaves	0	textures/blocks/leaves_birch.png|||||
+18	3	Jungle Leaves	leaves	0	textures/blocks/leaves_jungle.png|||||
+19	0	Sponge	sponge	0	textures/blocks/sponge.png|||||
+19	1	Wet Sponge	sponge	0	textures/blocks/sponge_wet.png|||||
+20	0	Glass	glass	0	textures/blocks/glass.png|||||
+21	0	Lapis Lazuli Ore	lapis_ore	0	textures/blocks/lapis_ore.png|||||
+22	0	Lapis Lazuli Block	lapis_block	0	textures/blocks/lapis_block.png|||||
+23	0	Dispenser	dispenser	0	textures/blocks/dispenser_front_vertical.png|||||
+24	0	Sandstone	sandstone	0	textures/blocks/sandstone_top.png|||||
+24	1	Chiseled Sandstone	sandstone	0	textures/blocks/red_sandstone_top.png|||||
+24	2	Smooth Sandstone	sandstone	0	textures/blocks/sandstone_smooth.png|||||
+25	0	Note Block	noteblock	0	textures/blocks/noteblock.png|||||
+26	0	Bed	bed	0	textures/blocks/bed_head_top.png|||||
+27	0	Powered Rail	golden_rail	3	textures/blocks/rail_golden.png|||||
+28	0	Detector Rail	detector_rail	3	textures/blocks/rail_detector.png|||||
+29	0	Sticky Piston	sticky_piston	0	textures/blocks/piston_top_sticky.png|||||
+30	0	Cobweb	web	2	textures/blocks/web.png|||||
+31	0	Dead Shrub	tallgrass	2	textures/blocks/deadbush.png|||||
+31	1	Grass	tallgrass	2	textures/blocks/tallgrass.png|||||
+31	2	Fern	tallgrass	2	textures/blocks/fern.png|||||
+32	0	Dead Bush	deadbush	2	textures/blocks/deadbush1.png|||||
+33	0	Piston	piston	1	textures/blocks/piston_top_normal.png|||||
+34	0	Piston Head	piston_head	1	textures/blocks/piston_top_sticky.png|||||
+35	0	White Wool	wool	0	textures/blocks/wool_colored_white.png|||||
+35	1	Orange Wool	wool	0	textures/blocks/wool_colored_orange.png|||||
+35	2	Magenta Wool	wool	0	textures/blocks/wool_colored_magenta.png|||||
+35	3	Light Blue Wool	wool	0	textures/blocks/wool_colored_blue.png|||||
+35	4	Yellow Wool	wool	0	textures/blocks/wool_colored_yellow.png|||||
+35	5	Lime Wool	wool	0	textures/blocks/wool_colored_lime.png|||||
+35	6	Pink Wool	wool	0	textures/blocks/wool_colored_pink.png|||||
+35	7	Gray Wool	wool	0	textures/blocks/wool_colored_gray.png|||||
+35	8	Light Gray Wool	wool	0	textures/blocks/wool_colored_silver.png|||||
+35	9	Cyan Wool	wool	0	textures/blocks/wool_colored_cyan.png|||||
+35	10	Purple Wool	wool	0	textures/blocks/wool_colored_purple.png|||||
+35	11	Blue Wool	wool	0	textures/blocks/wool_colored_blue.png|||||
+35	12	Brown Wool	wool	0	textures/blocks/wool_colored_brown.png|||||
+35	13	Green Wool	wool	0	textures/blocks/wool_colored_green.png|||||
+35	14	Red Wool	wool	0	textures/blocks/wool_colored_red.png|||||
+35	15	Black Wool	wool	0	textures/blocks/wool_colored_black.png|||||
+37	0	Dandelion	yellow_flower	2	textures/blocks/flower_dandelion.png|||||
+38	0	Poppy	red_flower	2	textures/blocks/potted/flower_tulip_red.png|||||
+38	1	Blue Orchid	red_flower	2	textures/blocks/flower_blue_orchid.png|||||
+38	2	Allium	red_flower	2	textures/blocks/flower_allium.png|||||
+38	3	Azure Bluet	red_flower	2	textures/blocks/potted/flower_azure_bluet.png|||||
+38	4	Red Tulip	red_flower	2	textures/blocks/flower_tulip_red.png|||||
+38	5	Orange Tulip	red_flower	2	textures/blocks/flower_tulip_orange.png|||||
+38	6	White Tulip	red_flower	2	textures/blocks/flower_tulip_white.png|||||
+38	7	Pink Tulip	red_flower	2	textures/blocks/flower_tulip_pink.png|||||
+38	8	Oxeye Daisy	red_flower	2	textures/blocks/flower_oxeye_daisy.png|||||
+39	0	Brown Mushroom	brown_mushroom	2	textures/blocks/mushroom_brown.png|||||
+40	0	Red Mushroom	red_mushroom	2	textures/blocks/mushroom_red.png|||||
+41	0	Gold Block	gold_block	0	textures/blocks/gold_block.png|||||
+42	0	Iron Block	iron_block	0	textures/blocks/iron_block.png|||||
+43	0	Double Stone Slab	double_stone_slab	0	textures/blocks/stone_slab_top.png|||||
+43	1	Double Sandstone Slab	double_stone_slab	0	textures/blocks/sandstone_slab.png|||||
+43	2	Double Wooden Slab	double_stone_slab	0	textures/blocks/red_sandstone_slab.png|||||
+43	3	Double Cobblestone Slab	double_stone_slab	0	textures/blocks/cobblestone.png|||||
+43	4	Double Brick Slab	double_stone_slab	0	|||||
+43	5	Double Stone Brick Slab	double_stone_slab	0	|||||
+43	6	Double Nether Brick Slab	double_stone_slab	0	|||||
+43	7	Double Quartz Slab	double_stone_slab	0	|||||
+44	0	Stone Slab	stone_slab	0	|||||
+44	1	Sandstone Slab	stone_slab	0	textures/blocks/sandstone_slab.png|||||
+44	2	Wooden Slab	stone_slab	0	|||||
+44	3	Cobblestone Slab	stone_slab	0	|||||
+44	4	Brick Slab	stone_slab	0	|||||
+44	5	Stone Brick Slab	stone_slab	0	|||||
+44	6	Nether Brick Slab	stone_slab	0	|||||
+44	7	Quartz Slab	stone_slab	0	|||||
+45	0	Bricks	brick_block	0	|||||
+46	0	TNT	tnt	0	|||||
+47	0	Bookshelf	bookshelf	0	textures/blocks/bookshelf.png|||||
+48	0	Moss Stone	mossy_cobblestone	0	|||||
+49	0	Obsidian	obsidian	0	textures/blocks/obsidian.png|||||
+50	0	Torch	torch	5	textures/blocks/redstone_torch_off.png|||||
+51	0	Fire	fire	0	|||||
+52	0	Monster Spawner	mob_spawner	0	textures/blocks/mob_spawner.png|||||
+53	0	Oak Wood Stairs	oak_stairs	0	|||||
+54	0	Chest	chest	0	|||||
+55	0	Redstone Wire	redstone_wire	0	|||||
+56	0	Diamond Ore	diamond_ore	0	textures/blocks/diamond_ore.png|||||
+57	0	Diamond Block	diamond_block	0	textures/blocks/diamond_block.png|||||
+58	0	Crafting Table	crafting_table	0	|||||
+59	0	Wheat Crops	wheat	0	|||||
+60	0	Farmland	farmland	0	|||||
+61	0	Furnace	furnace	0	|||||
+62	0	Burning Furnace	lit_furnace	0	|||||
+63	0	Standing Sign Block	standing_sign	0	|||||
+64	0	Oak Door Block	wooden_door	0	|||||
+65	0	Ladder	ladder	0	textures/blocks/ladder.png|||||
+66	0	Rail	rail	3	textures/blocks/rail_normal.png|||||
+67	0	Cobblestone Stairs	stone_stairs	0	|||||
+68	0	Wall-mounted Sign Block	wall_sign	0	|||||
+69	0	Lever	lever	0	textures/blocks/lever.png|||||
+70	0	Stone Pressure Plate	stone_pressure_plate	0	|||||
+71	0	Iron Door Block	iron_door	0	|||||
+72	0	Wooden Pressure Plate	wooden_pressure_plate	0	|||||
+73	0	Redstone Ore	redstone_ore	0	textures/blocks/redstone_ore.png|||||
+74	0	Glowing Redstone Ore	lit_redstone_ore	0	|||||
+75	0	Redstone Torch (off)	unlit_redstone_torch	0	|||||
+76	0	Redstone Torch (on)	redstone_torch	5	textures/blocks/redstone_torch_off.png|||||
+77	0	Stone Button	stone_button	0	textures/blocks/stone_button.png|||||
+78	0	Snow	snow_layer	0	textures/blocks/snow.png|||||
+79	0	Ice	ice	0	textures/blocks/ice.png|||||
+80	0	Snow Block	snow	0	|||||
+81	0	Cactus	cactus	0	|||||
+82	0	Clay	clay	0	textures/blocks/clay.png|||||
+83	0	Sugar Canes	reeds	0	|||||
+84	0	Jukebox	jukebox	0	|||||
+85	0	Oak Fence	fence	5	textures/blocks/fence_oak.png|||||
+86	0	Pumpkin	pumpkin	0	|||||
+87	0	Netherrack	netherrack	0	textures/blocks/netherrack.png|||||
+88	0	Soul Sand	soul_sand	0	textures/blocks/soul_sand.png|||||
+89	0	Glowstone	glowstone	0	textures/blocks/glowstone.png|||||
+90	0	Nether Portal	portal	0	|||||
+91	0	Jack o'Lantern	lit_pumpkin	0	|||||
+92	0	Cake Block	cake	0	|||||
+93	0	Redstone Repeater Block (off)	unpowered_repeater	0	|||||
+94	0	Redstone Repeater Block (on)	powered_repeater	0	|||||
+95	0	White Stained Glass	stained_glass	0	|||||
+95	1	Orange Stained Glass	stained_glass	0	|||||
+95	2	Magenta Stained Glass	stained_glass	0	|||||
+95	3	Light Blue Stained Glass	stained_glass	0	|||||
+95	4	Yellow Stained Glass	stained_glass	0	|||||
+95	5	Lime Stained Glass	stained_glass	0	|||||
+95	6	Pink Stained Glass	stained_glass	0	|||||
+95	7	Gray Stained Glass	stained_glass	0	|||||
+95	8	Light Gray Stained Glass	stained_glass	0	|||||
+95	9	Cyan Stained Glass	stained_glass	0	|||||
+95	10	Purple Stained Glass	stained_glass	0	|||||
+95	11	Blue Stained Glass	stained_glass	0	|||||
+95	12	Brown Stained Glass	stained_glass	0	|||||
+95	13	Green Stained Glass	stained_glass	0	|||||
+95	14	Red Stained Glass	stained_glass	0	|||||
+95	15	Black Stained Glass	stained_glass	0	|||||
+96	0	Wooden Trapdoor	trapdoor	0	|||||
+97	0	Stone Monster Egg	monster_egg	0	|||||
+97	1	Cobblestone Monster Egg	monster_egg	0	|||||
+97	2	Stone Brick Monster Egg	monster_egg	0	|||||
+97	3	Mossy Stone Brick Monster Egg	monster_egg	0	|||||
+97	4	Cracked Stone Brick Monster Egg	monster_egg	0	|||||
+97	5	Chiseled Stone Brick Monster Egg	monster_egg	0	|||||
+98	0	Stone Bricks	stonebrick	0	|||||
+98	1	Mossy Stone Bricks	stonebrick	0	|||||
+98	2	Cracked Stone Bricks	stonebrick	0	|||||
+98	3	Chiseled Stone Bricks	stonebrick	0	|||||
+99	0	Brown Mushroom Block	brown_mushroom_block	0	|||||
+100	0	Red Mushroom Block	red_mushroom_block	0	|||||
+101	0	Iron Bars	iron_bars	0	textures/blocks/iron_bars.png|||||
+102	0	Glass Pane	glass_pane	0	|||||
+103	0	Melon Block	melon_block	0	|||||
+104	0	Pumpkin Stem	pumpkin_stem	0	|||||
+105	0	Melon Stem	melon_stem	0	|||||
+106	0	Vines	vine	0	|||||
+107	0	Oak Fence Gate	fence_gate	0	|||||
+108	0	Brick Stairs	brick_stairs	0	|||||
+109	0	Stone Brick Stairs	stone_brick_stairs	0	|||||
+110	0	Mycelium	mycelium	0	|||||
+111	0	Lily Pad	waterlily	0	|||||
+112	0	Nether Brick	nether_brick	0	textures/blocks/nether_brick.png|||||
+113	0	Nether Brick Fence	nether_brick_fence	0	|||||
+114	0	Nether Brick Stairs	nether_brick_stairs	0	|||||
+115	0	Nether Wart	nether_wart	0	|||||
+116	0	Enchantment Table	enchanting_table	0	|||||
+117	0	Brewing Stand	brewing_stand	0	textures/blocks/brewing_stand.png|||||
+118	0	Cauldron	cauldron	0	|||||
+119	0	End Portal	end_portal	0	|||||
+120	0	End Portal Frame	end_portal_frame	0	|||||
+121	0	End Stone	end_stone	0	textures/blocks/end_stone.png|||||
+122	0	Dragon Egg	dragon_egg	0	textures/blocks/dragon_egg.png|||||
+123	0	Redstone Lamp (inactive)	redstone_lamp	0	|||||
+124	0	Redstone Lamp (active)	lit_redstone_lamp	0	|||||
+125	0	Double Oak Wood Slab	double_wooden_slab	0	|||||
+125	1	Double Spruce Wood Slab	double_wooden_slab	0	|||||
+125	2	Double Birch Wood Slab	double_wooden_slab	0	|||||
+125	3	Double Jungle Wood Slab	double_wooden_slab	0	|||||
+125	4	Double Acacia Wood Slab	double_wooden_slab	0	|||||
+125	5	Double Dark Oak Wood Slab	double_wooden_slab	0	|||||
+126	0	Oak Wood Slab	wooden_slab	0	|||||
+126	1	Spruce Wood Slab	wooden_slab	0	|||||
+126	2	Birch Wood Slab	wooden_slab	0	|||||
+126	3	Jungle Wood Slab	wooden_slab	0	|||||
+126	4	Acacia Wood Slab	wooden_slab	0	|||||
+126	5	Dark Oak Wood Slab	wooden_slab	0	|||||
+127	0	Cocoa	cocoa	0	|||||
+128	0	Sandstone Stairs	sandstone_stairs	0	|||||
+129	0	Emerald Ore	emerald_ore	0	textures/blocks/emerald_ore.png|||||
+130	0	Ender Chest	ender_chest	0	|||||
+131	0	Tripwire Hook	tripwire_hook	0	|||||
+132	0	Tripwire	tripwire_hook	0	|||||
+133	0	Emerald Block	emerald_block	0	textures/blocks/emerald_block.png|||||
+134	0	Spruce Wood Stairs	spruce_stairs	0	|||||
+135	0	Birch Wood Stairs	birch_stairs	0	|||||
+136	0	Jungle Wood Stairs	jungle_stairs	0	|||||
+137	0	Command Block	command_block	0	|||||
+138	0	Beacon	beacon	0	textures/blocks/beacon.png|||||
+139	0	Cobblestone Wall	cobblestone_wall	0	|||||
+139	1	Mossy Cobblestone Wall	cobblestone_wall	0	|||||
+140	0	Flower Pot	flower_pot	0	textures/blocks/flower_pot.png|||||
+141	0	Carrots	carrots	0	|||||
+142	0	Potatoes	potatoes	0	|||||
+143	0	Wooden Button	wooden_button	0	textures/blocks/wooden_button.png|||||
+144	0	Mob Head	skull	0	|||||
+145	0	Anvil	anvil	0	|||||
+146	0	Trapped Chest	trapped_chest	0	|||||
+147	0	Weighted Pressure Plate (light)	light_weighted_pressure_plate	0	|||||
+148	0	Weighted Pressure Plate (heavy)	heavy_weighted_pressure_plate	0	|||||
+149	0	Redstone Comparator (inactive)	unpowered_comparator	0	|||||
+150	0	Redstone Comparator (active)	powered_comparator	0	|||||
+151	0	Daylight Sensor	daylight_detector	0	|||||
+152	0	Redstone Block	redstone_block	0	textures/blocks/redstone_block.png|||||
+153	0	Nether Quartz Ore	quartz_ore	0	|||||
+154	0	Hopper	hopper	0	|||||
+155	0	Quartz Block	quartz_block	0	|||||
+155	1	Chiseled Quartz Block	quartz_block	0	|||||
+155	2	Pillar Quartz Block	quartz_block	0	|||||
+156	0	Quartz Stairs	quartz_stairs	0	|||||
+157	0	Activator Rail	activator_rail	3	textures/blocks/rail_activator.png|textures/blocks/rail_activator_powered.png||||
+158	0	Dropper	dropper	0	|||||
+159	0	White Hardened Clay	stained_hardened_clay	0	|||||
+159	1	Orange Hardened Clay	stained_hardened_clay	0	|||||
+159	2	Magenta Hardened Clay	stained_hardened_clay	0	|||||
+159	3	Light Blue Hardened Clay	stained_hardened_clay	0	|||||
+159	4	Yellow Hardened Clay	stained_hardened_clay	0	|||||
+159	5	Lime Hardened Clay	stained_hardened_clay	0	|||||
+159	6	Pink Hardened Clay	stained_hardened_clay	0	|||||
+159	7	Gray Hardened Clay	stained_hardened_clay	0	|||||
+159	8	Light Gray Hardened Clay	stained_hardened_clay	0	|||||
+159	9	Cyan Hardened Clay	stained_hardened_clay	0	|||||
+159	10	Purple Hardened Clay	stained_hardened_clay	0	|||||
+159	11	Blue Hardened Clay	stained_hardened_clay	0	|||||
+159	12	Brown Hardened Clay	stained_hardened_clay	0	|||||
+159	13	Green Hardened Clay	stained_hardened_clay	0	|||||
+159	14	Red Hardened Clay	stained_hardened_clay	0	|||||
+159	15	Black Hardened Clay	stained_hardened_clay	0	|||||
+160	0	White Stained Glass Pane	stained_glass_pane	0	|||||
+160	1	Orange Stained Glass Pane	stained_glass_pane	0	|||||
+160	2	Magenta Stained Glass Pane	stained_glass_pane	0	|||||
+160	3	Light Blue Stained Glass Pane	stained_glass_pane	0	|||||
+160	4	Yellow Stained Glass Pane	stained_glass_pane	0	|||||
+160	5	Lime Stained Glass Pane	stained_glass_pane	0	|||||
+160	6	Pink Stained Glass Pane	stained_glass_pane	0	|||||
+160	7	Gray Stained Glass Pane	stained_glass_pane	0	|||||
+160	8	Light Gray Stained Glass Pane	stained_glass_pane	0	|||||
+160	9	Cyan Stained Glass Pane	stained_glass_pane	0	|||||
+160	10	Purple Stained Glass Pane	stained_glass_pane	0	|||||
+160	11	Blue Stained Glass Pane	stained_glass_pane	0	|||||
+160	12	Brown Stained Glass Pane	stained_glass_pane	0	|||||
+160	13	Green Stained Glass Pane	stained_glass_pane	0	|||||
+160	14	Red Stained Glass Pane	stained_glass_pane	0	|||||
+160	15	Black Stained Glass Pane	stained_glass_pane	0	|||||
+161	0	Acacia Leaves	leaves2	0	|||||
+161	1	Dark Oak Leaves	leaves2	0	|||||
+162	0	Acacia Wood	log2	0	|||||
+162	1	Dark Oak Wood	log2	0	|||||
+163	0	Acacia Wood Stairs	acacia_stairs	0	|||||
+164	0	Dark Oak Wood Stairs	dark_oak_stairs	0	|||||
+165	0	Slime Block	slime	0	|||||
+166	0	Barrier	barrier	0	|||||
+167	0	Iron Trapdoor	iron_trapdoor	0	textures/blocks/iron_trapdoor.png|||||
+168	0	Prismarine	prismarine	0	|||||
+168	1	Prismarine Bricks	prismarine	0	textures/blocks/prismarine_bricks.png|||||
+168	2	Dark Prismarine	prismarine	0	|||||
+169	0	Sea Lantern	sea_lantern	0	textures/blocks/sea_lantern.png|||||
+170	0	Hay Bale	hay_block	0	|||||
+171	0	White Carpet	carpet	0	|||||
+171	1	Orange Carpet	carpet	0	|||||
+171	2	Magenta Carpet	carpet	0	|||||
+171	3	Light Blue Carpet	carpet	0	|||||
+171	4	Yellow Carpet	carpet	0	|||||
+171	5	Lime Carpet	carpet	0	|||||
+171	6	Pink Carpet	carpet	0	|||||
+171	7	Gray Carpet	carpet	0	|||||
+171	8	Light Gray Carpet	carpet	0	|||||
+171	9	Cyan Carpet	carpet	0	|||||
+171	10	Purple Carpet	carpet	0	|||||
+171	11	Blue Carpet	carpet	0	|||||
+171	12	Brown Carpet	carpet	0	|||||
+171	13	Green Carpet	carpet	0	|||||
+171	14	Red Carpet	carpet	0	|||||
+171	15	Black Carpet	carpet	0	|||||
+172	0	Hardened Clay	hardened_clay	0	textures/blocks/hardened_clay.png|||||
+173	0	Block of Coal	coal_block	0	|||||
+174	0	Packed Ice	packed_ice	0	|||||
+175	0	Sunflower	double_plant	0	|||||
+175	1	Lilac	double_plant	0	|||||
+175	2	Double Tallgrass	double_plant	0	|||||
+175	3	Large Fern	double_plant	0	|||||
+175	4	Rose Bush	double_plant	0	|||||
+175	5	Peony	double_plant	0	|||||
+176	0	Free-standing Banner	standing_banner	0	|||||
+177	0	Wall-mounted Banner	wall_banner	0	|||||
+178	0	Inverted Daylight Sensor	daylight_detector_inverted	0	|||||
+179	0	Red Sandstone	red_sandstone	0	|||||
+179	1	Chiseled Red Sandstone	red_sandstone	0	|||||
+179	2	Smooth Red Sandstone	red_sandstone	0	|||||
+180	0	Red Sandstone Stairs	red_sandstone_stairs	0	|||||
+181	0	Double Red Sandstone Slab	double_stone_slab2	0	|||||
+182	0	Red Sandstone Slab	stone_slab2	0	textures/blocks/red_sandstone_slab.png|||||
+183	0	Spruce Fence Gate	spruce_fence_gate	0	|||||
+184	0	Birch Fence Gate	birch_fence_gate	0	|||||
+185	0	Jungle Fence Gate	jungle_fence_gate	0	|||||
+186	0	Dark Oak Fence Gate	dark_oak_fence_gate	0	|||||
+187	0	Acacia Fence Gate	acacia_fence_gate	0	|||||
+188	0	Spruce Fence	spruce_fence	5	textures/blocks/fence_spruce.png|||||
+189	0	Birch Fence	birch_fence	5	textures/blocks/fence_birch.png|||||
+190	0	Jungle Fence	jungle_fence	5	textures/blocks/fence_jungle.png|||||
+191	0	Dark Oak Fence	dark_oak_fence	5	|||||
+192	0	Acacia Fence	acacia_fence	5	textures/blocks/fence_acacia.png|||||
+193	0	Spruce Door Block	spruce_door	0	|||||
+194	0	Birch Door Block	birch_door	0	|||||
+195	0	Jungle Door Block	jungle_door	0	|||||
+196	0	Acacia Door Block	acacia_door	0	|||||
+197	0	Dark Oak Door Block	dark_oak_door	0	|||||
+198	0	End Rod	end_rod	0	textures/blocks/end_rod.png|||||
+199	0	Chorus Plant	chorus_plant	0	textures/blocks/chorus_plant.png|||||
+200	0	Chorus Flower	chorus_flower	0	|||||
+201	0	Purpur Block	purpur_block	0	textures/blocks/purpur_block.png|||||
+202	0	Purpur Pillar	purpur_pillar	0	textures/blocks/purpur_pillar.png|||||
+203	0	Purpur Stairs	purpur_stairs	0	|||||
+204	0	Purpur Double Slab	purpur_double_slab	0	|||||
+205	0	Purpur Slab	purpur_slab	0	|||||
+206	0	End Stone Bricks	end_bricks	0	|||||
+207	0	Beetroot Block	beetroots	0	|||||
+208	0	Grass Path	grass_path	0	|||||
+209	0	End Gateway	end_gateway	0	|||||
+210	0	Repeating Command Block	repeating_command_block	0	|||||
+211	0	Chain Command Block	chain_command_block	0	|||||
+212	0	Frosted Ice	frosted_ice	0	|||||
+213	0	Magma Block	magma	0	|||||
+214	0	Nether Wart Block	nether_wart_block	0	textures/blocks/nether_wart_block.png|||||
+215	0	Red Nether Brick	red_nether_brick	0	textures/blocks/red_nether_brick.png|||||
+216	0	Bone Block	bone_block	0	|||||
+217	0	Structure Void	structure_void	0	|||||
+218	0	Observer	observer	0	|||||
+219	0	White Shulker Box	white_shulker_box	0	|||||
+220	0	Orange Shulker Box	orange_shulker_box	0	|||||
+221	0	Magenta Shulker Box	magenta_shulker_box	0	|||||
+222	0	Light Blue Shulker Box	light_blue_shulker_box	0	|||||
+223	0	Yellow Shulker Box	yellow_shulker_box	0	|||||
+224	0	Lime Shulker Box	lime_shulker_box	0	|||||
+225	0	Pink Shulker Box	pink_shulker_box	0	|||||
+226	0	Gray Shulker Box	gray_shulker_box	0	|||||
+227	0	Light Gray Shulker Box	silver_shulker_box	0	|||||
+228	0	Cyan Shulker Box	cyan_shulker_box	0	|||||
+229	0	Purple Shulker Box	purple_shulker_box	0	|||||
+230	0	Blue Shulker Box	blue_shulker_box	0	|||||
+231	0	Brown Shulker Box	brown_shulker_box	0	|||||
+232	0	Green Shulker Box	green_shulker_box	0	|||||
+233	0	Red Shulker Box	red_shulker_box	0	|||||
+234	0	Black Shulker Box	black_shulker_box	0	|||||
+235	0	White Glazed Terracotta	white_glazed_terracotta	0	|||||
+236	0	Orange Glazed Terracotta	orange_glazed_terracotta	0	|||||
+237	0	Magenta Glazed Terracotta	magenta_glazed_terracotta	0	|||||
+238	0	Light Blue Glazed Terracotta	light_blue_glazed_terracotta	0	|||||
+239	0	Yellow Glazed Terracotta	yellow_glazed_terracotta	0	|||||
+240	0	Lime Glazed Terracotta	lime_glazed_terracotta	0	|||||
+241	0	Pink Glazed Terracotta	pink_glazed_terracotta	0	|||||
+242	0	Gray Glazed Terracotta	gray_glazed_terracotta	0	|||||
+243	0	Light Gray Glazed Terracotta	light_gray_glazed_terracotta	0	|||||
+244	0	Cyan Glazed Terracotta	cyan_glazed_terracotta	0	|||||
+245	0	Purple Glazed Terracotta	purple_glazed_terracotta	0	|||||
+246	0	Blue Glazed Terracotta	blue_glazed_terracotta	0	|||||
+247	0	Brown Glazed Terracotta	brown_glazed_terracotta	0	|||||
+248	0	Green Glazed Terracotta	green_glazed_terracotta	0	|||||
+249	0	Red Glazed Terracotta	red_glazed_terracotta	0	|||||
+250	0	Black Glazed Terracotta	black_glazed_terracotta	0	|||||
+251	0	White Concrete	concrete	0	|||||
+251	1	Orange Concrete	concrete	0	|||||
+251	2	Magenta Concrete	concrete	0	|||||
+251	3	Light Blue Concrete	concrete	0	|||||
+251	4	Yellow Concrete	concrete	0	|||||
+251	5	Lime Concrete	concrete	0	|||||
+251	6	Pink Concrete	concrete	0	|||||
+251	7	Gray Concrete	concrete	0	|||||
+251	8	Light Gray Concrete	concrete	0	|||||
+251	9	Cyan Concrete	concrete	0	|||||
+251	10	Purple Concrete	concrete	0	|||||
+251	11	Blue Concrete	concrete	0	|||||
+251	12	Brown Concrete	concrete	0	|||||
+251	13	Green Concrete	concrete	0	|||||
+251	14	Red Concrete	concrete	0	|||||
+251	15	Black Concrete	concrete	0	|||||
+252	0	White Concrete Powder	concrete_powder	0	|||||
+252	1	Orange Concrete Powder	concrete_powder	0	|||||
+252	2	Magenta Concrete Powder	concrete_powder	0	|||||
+252	3	Light Blue Concrete Powder	concrete_powder	0	|||||
+252	4	Yellow Concrete Powder	concrete_powder	0	|||||
+252	5	Lime Concrete Powder	concrete_powder	0	|||||
+252	6	Pink Concrete Powder	concrete_powder	0	|||||
+252	7	Gray Concrete Powder	concrete_powder	0	|||||
+252	8	Light Gray Concrete Powder	concrete_powder	0	|||||
+252	9	Cyan Concrete Powder	concrete_powder	0	|||||
+252	10	Purple Concrete Powder	concrete_powder	0	|||||
+252	11	Blue Concrete Powder	concrete_powder	0	|||||
+252	12	Brown Concrete Powder	concrete_powder	0	|||||
+252	13	Green Concrete Powder	concrete_powder	0	|||||
+252	14	Red Concrete Powder	concrete_powder	0	|||||
+252	15	Black Concrete Powder	concrete_powder	0	|||||
+255	0	Structure Block	structure_block	0	textures/blocks/structure_block.png|||||
+256	0	Iron Shovel	iron_shovel	3	textures/items/iron_shovel.png|||||
+257	0	Iron Pickaxe	iron_pickaxe	3	textures/items/iron_pickaxe.png|||||
+258	0	Iron Axe	iron_axe	3	textures/items/iron_axe.png|||||
+259	0	Flint and Steel	flint_and_steel	3	textures/items/flint_and_steel.png|||||
+260	0	Apple	apple	3	textures/items/apple.png|||||
+261	0	Bow	bow	3	|||||
+262	0	Arrow	arrow	3	textures/items/arrow.png|||||
+263	0	Coal	coal	3	textures/items/coal.png|||||
+263	1	Charcoal	coal	3	textures/items/charcoal.png|||||
+264	0	Diamond	diamond	3	textures/items/diamond.png|||||
+265	0	Iron Ingot	iron_ingot	3	textures/items/iron_ingot.png|||||
+266	0	Gold Ingot	gold_ingot	3	textures/items/gold_ingot.png|||||
+267	0	Iron Sword	iron_sword	3	textures/items/iron_sword.png|||||
+268	0	Wooden Sword	wooden_sword	3	|||||
+269	0	Wooden Shovel	wooden_shovel	3	|||||
+270	0	Wooden Pickaxe	wooden_pickaxe	3	|||||
+271	0	Wooden Axe	wooden_axe	3	|||||
+272	0	Stone Sword	stone_sword	3	textures/items/stone_sword.png|||||
+273	0	Stone Shovel	stone_shovel	3	textures/items/stone_shovel.png|||||
+274	0	Stone Pickaxe	stone_pickaxe	3	textures/items/stone_pickaxe.png|||||
+275	0	Stone Axe	stone_axe	3	textures/items/stone_axe.png|||||
+276	0	Diamond Sword	diamond_sword	3	textures/items/diamond_sword.png|||||
+277	0	Diamond Shovel	diamond_shovel	3	textures/items/diamond_shovel.png|||||
+278	0	Diamond Pickaxe	diamond_pickaxe	3	textures/items/diamond_pickaxe.png|||||
+279	0	Diamond Axe	diamond_axe	3	textures/items/diamond_axe.png|||||
+280	0	Stick	stick	3	textures/items/stick.png|||||
+281	0	Bowl	bowl	3	textures/items/bowl.png|||||
+282	0	Mushroom Stew	mushroom_stew	3	textures/items/mushroom_stew.png|||||
+283	0	Golden Sword	golden_sword	3	|||||
+284	0	Golden Shovel	golden_shovel	3	|||||
+285	0	Golden Pickaxe	golden_pickaxe	3	|||||
+286	0	Golden Axe	golden_axe	3	|||||
+287	0	String	string	3	textures/items/string.png|||||
+288	0	Feather	feather	3	textures/items/feather.png|||||
+289	0	Gunpowder	gunpowder	3	textures/items/gunpowder.png|||||
+290	0	Wooden Hoe	wooden_hoe	3	|||||
+291	0	Stone Hoe	stone_hoe	3	textures/items/stone_hoe.png|||||
+292	0	Iron Hoe	iron_hoe	3	textures/items/iron_hoe.png|||||
+293	0	Diamond Hoe	diamond_hoe	3	textures/items/diamond_hoe.png|||||
+294	0	Golden Hoe	golden_hoe	3	|||||
+295	0	Wheat Seeds	wheat_seeds	3	|||||
+296	0	Wheat	wheat	3	textures/items/wheat.png|||||
+297	0	Bread	bread	3	textures/items/bread.png|||||
+298	0	Leather Helmet	leather_helmet	3	textures/items/leather_helmet.png|||||
+299	0	Leather Tunic	leather_chestplate	3	|||||
+300	0	Leather Pants	leather_leggings	3	|||||
+301	0	Leather Boots	leather_boots	3	textures/items/leather_boots.png|||||
+302	0	Chainmail Helmet	chainmail_helmet	3	textures/items/chainmail_helmet.png|||||
+303	0	Chainmail Chestplate	chainmail_chestplate	3	textures/items/chainmail_chestplate.png|||||
+304	0	Chainmail Leggings	chainmail_leggings	3	textures/items/chainmail_leggings.png|||||
+305	0	Chainmail Boots	chainmail_boots	3	textures/items/chainmail_boots.png|||||
+306	0	Iron Helmet	iron_helmet	3	textures/items/iron_helmet.png|||||
+307	0	Iron Chestplate	iron_chestplate	3	textures/items/iron_chestplate.png|||||
+308	0	Iron Leggings	iron_leggings	3	textures/items/iron_leggings.png|||||
+309	0	Iron Boots	iron_boots	3	textures/items/iron_boots.png|||||
+310	0	Diamond Helmet	diamond_helmet	3	textures/items/diamond_helmet.png|||||
+311	0	Diamond Chestplate	diamond_chestplate	3	textures/items/diamond_chestplate.png|||||
+312	0	Diamond Leggings	diamond_leggings	3	textures/items/diamond_leggings.png|||||
+313	0	Diamond Boots	diamond_boots	3	textures/items/diamond_boots.png|||||
+314	0	Golden Helmet	golden_helmet	3	|||||
+315	0	Golden Chestplate	golden_chestplate	3	|||||
+316	0	Golden Leggings	golden_leggings	3	|||||
+317	0	Golden Boots	golden_boots	3	|||||
+318	0	Flint	flint	3	textures/items/flint.png|||||
+319	0	Raw Porkchop	porkchop	3	|||||
+320	0	Cooked Porkchop	cooked_porkchop	3	|||||
+321	0	Painting	painting	3	textures/items/painting.png|||||
+322	0	Golden Apple	golden_apple	3	|||||
+322	1	Enchanted Golden Apple	golden_apple	3	|||||
+323	0	Sign	sign	3	textures/items/sign.png|||||
+324	0	Oak Door	wooden_door	3	|||||
+325	0	Bucket	bucket	3	|||||
+326	0	Water Bucket	water_bucket	3	|||||
+327	0	Lava Bucket	lava_bucket	3	|||||
+328	0	Minecart	minecart	3	|||||
+329	0	Saddle	saddle	3	textures/items/saddle.png|||||
+330	0	Iron Door	iron_door	3	|||||
+331	0	Redstone	redstone	3	textures/blocks/redstone_dust_line.png|||||
+332	0	Snowball	snowball	3	textures/items/snowball.png|||||
+333	0	Oak Boat	boat	3	textures/items/oak_boat.png|||||
+334	0	Leather	leather	3	textures/items/leather.png|||||
+335	0	Milk Bucket	milk_bucket	3	|||||
+336	0	Brick	brick	3	textures/items/brick.png|||||
+337	0	Clay	clay_ball	3	|||||
+338	0	Sugar Canes	reeds	3	|||||
+339	0	Paper	paper	3	textures/items/paper.png|||||
+340	0	Book	book	3	|||||
+341	0	Slimeball	slime_ball	3	textures/items/slimeball.png|||||
+342	0	Minecart with Chest	chest_minecart	3	|||||
+343	0	Minecart with Furnace	furnace_minecart	3	|||||
+344	0	Egg	egg	3	textures/items/egg.png|||||
+345	0	Compass	compass	3	|||||
+346	0	Fishing Rod	fishing_rod	3	|||||
+347	0	Clock	clock	3	|||||
+348	0	Glowstone Dust	glowstone_dust	3	textures/items/glowstone_dust.png|||||
+349	0	Raw Fish	fish	3	|||||
+349	1	Raw Salmon	fish	3	|||||
+349	2	Clownfish	fish	3	|||||
+349	3	Pufferfish	fish	3	|||||
+350	0	Cooked Fish	cooked_fish	3	|||||
+350	1	Cooked Salmon	cooked_fish	3	|||||
+351	0	Ink Sack	dye	3	|||||
+351	1	Rose Red	dye	3	|||||
+351	2	Cactus Green	dye	3	|||||
+351	3	Coco Beans	dye	3	|||||
+351	4	Lapis Lazuli	dye	3	|||||
+351	5	Purple Dye	dye	3	|||||
+351	6	Cyan Dye	dye	3	|||||
+351	7	Light Gray Dye	dye	3	|||||
+351	8	Gray Dye	dye	3	|||||
+351	9	Pink Dye	dye	3	|||||
+351	10	Lime Dye	dye	3	|||||
+351	11	Dandelion Yellow	dye	3	|||||
+351	12	Light Blue Dye	dye	3	|||||
+351	13	Magenta Dye	dye	3	|||||
+351	14	Orange Dye	dye	3	|||||
+351	15	Bone Meal	dye	3	|||||
+352	0	Bone	bone	3	textures/items/bone.png|||||
+353	0	Sugar	sugar	3	textures/items/sugar.png|||||
+354	0	Cake	cake	3	textures/items/cake.png|||||
+355	0	Bed	bed	3	textures/items/bed.png|||||
+356	0	Redstone Repeater	repeater	3	|||||
+357	0	Cookie	cookie	3	textures/items/cookie.png|||||
+358	0	Map	filled_map	3	|||||
+359	0	Shears	shears	3	textures/items/shears.png|||||
+360	0	Melon	melon	3	textures/items/melon.png|||||
+361	0	Pumpkin Seeds	pumpkin_seeds	3	|||||
+362	0	Melon Seeds	melon_seeds	3	|||||
+363	0	Raw Beef	beef	3	|||||
+364	0	Steak	cooked_beef	3	|||||
+365	0	Raw Chicken	chicken	3	|||||
+366	0	Cooked Chicken	cooked_chicken	3	|||||
+367	0	Rotten Flesh	rotten_flesh	3	textures/items/rotten_flesh.png|||||
+368	0	Ender Pearl	ender_pearl	3	textures/items/ender_pearl.png|||||
+369	0	Blaze Rod	blaze_rod	3	textures/items/blaze_rod.png|||||
+370	0	Ghast Tear	ghast_tear	3	textures/items/ghast_tear.png|||||
+371	0	Gold Nugget	gold_nugget	3	textures/items/gold_nugget.png|||||
+372	0	Nether Wart	nether_wart	3	textures/items/nether_wart.png|||||
+373	0	Potion	potion	3	|||||
+374	0	Glass Bottle	glass_bottle	3	|||||
+375	0	Spider Eye	spider_eye	3	textures/items/spider_eye.png|||||
+376	0	Fermented Spider Eye	fermented_spider_eye	3	|||||
+377	0	Blaze Powder	blaze_powder	3	textures/items/blaze_powder.png|||||
+378	0	Magma Cream	magma_cream	3	textures/items/magma_cream.png|||||
+379	0	Brewing Stand	brewing_stand	3	textures/items/brewing_stand.png|||||
+380	0	Cauldron	cauldron	3	textures/items/cauldron.png|||||
+381	0	Eye of Ender	ender_eye	3	|||||
+382	0	Glistering Melon	speckled_melon	3	|||||
+383	4	Spawn Elder Guardian	spawn_egg	3	|||||
+383	5	Spawn Wither Skeleton	spawn_egg	3	|||||
+383	6	Spawn Stray	spawn_egg	3	|||||
+383	23	Spawn Husk	spawn_egg	3	|||||
+383	27	Spawn Zombie Villager	spawn_egg	3	|||||
+383	28	Spawn Skeleton Horse	spawn_egg	3	|||||
+383	29	Spawn Zombie Horse	spawn_egg	3	|||||
+383	31	Spawn Donkey	spawn_egg	3	|||||
+383	32	Spawn Mule	spawn_egg	3	|||||
+383	34	Spawn Evoker	spawn_egg	3	|||||
+383	35	Spawn Vex	spawn_egg	3	|||||
+383	36	Spawn Vindicator	spawn_egg	3	|||||
+383	50	Spawn Creeper	spawn_egg	3	|||||
+383	51	Spawn Skeleton	spawn_egg	3	|||||
+383	52	Spawn Spider	spawn_egg	3	|||||
+383	54	Spawn Zombie	spawn_egg	3	|||||
+383	55	Spawn Slime	spawn_egg	3	|||||
+383	56	Spawn Ghast	spawn_egg	3	|||||
+383	57	Spawn Zombie Pigman	spawn_egg	3	|||||
+383	58	Spawn Enderman	spawn_egg	3	|||||
+383	59	Spawn Cave Spider	spawn_egg	3	|||||
+383	60	Spawn Silverfish	spawn_egg	3	|||||
+383	61	Spawn Blaze	spawn_egg	3	|||||
+383	62	Spawn Magma Cube	spawn_egg	3	|||||
+383	65	Spawn Bat	spawn_egg	3	|||||
+383	66	Spawn Witch	spawn_egg	3	|||||
+383	67	Spawn Endermite	spawn_egg	3	|||||
+383	68	Spawn Guardian	spawn_egg	3	|||||
+383	69	Spawn Shulker	spawn_egg	3	|||||
+383	90	Spawn Pig	spawn_egg	3	|||||
+383	91	Spawn Sheep	spawn_egg	3	|||||
+383	92	Spawn Cow	spawn_egg	3	|||||
+383	93	Spawn Chicken	spawn_egg	3	|||||
+383	94	Spawn Squid	spawn_egg	3	|||||
+383	95	Spawn Wolf	spawn_egg	3	|||||
+383	96	Spawn Mooshroom	spawn_egg	3	|||||
+383	98	Spawn Ocelot	spawn_egg	3	|||||
+383	100	Spawn Horse	spawn_egg	3	|||||
+383	101	Spawn Rabbit	spawn_egg	3	|||||
+383	102	Spawn Polar Bear	spawn_egg	3	|||||
+383	103	Spawn Llama	spawn_egg	3	|||||
+383	120	Spawn Villager	spawn_egg	3	|||||
+384	0	Bottle o' Enchanting	experience_bottle	3	|||||
+385	0	Fire Charge	fire_charge	3	|||||
+386	0	Book and Quill	writable_book	3	|||||
+387	0	Written Book	written_book	3	|||||
+388	0	Emerald	emerald	3	textures/items/emerald.png|||||
+389	0	Item Frame	item_frame	3	textures/items/item_frame.png|||||
+390	0	Flower Pot	flower_pot	3	textures/items/flower_pot.png|||||
+391	0	Carrot	carrot	3	textures/items/carrot.png|||||
+392	0	Potato	potato	3	textures/items/potato.png|||||
+393	0	Baked Potato	baked_potato	3	|||||
+394	0	Poisonous Potato	poisonous_potato	3	|||||
+395	0	Empty Map	map	3	|||||
+396	0	Golden Carrot	golden_carrot	3	|||||
+397	0	Mob Head (Skeleton)	skull	3	|||||
+397	1	Mob Head (Wither Skeleton)	skull	3	|||||
+397	2	Mob Head (Zombie)	skull	3	|||||
+397	3	Mob Head (Human)	skull	3	|||||
+397	4	Mob Head (Creeper)	skull	3	|||||
+397	5	Mob Head (Dragon)	skull	3	|||||
+398	0	Carrot on a Stick	carrot_on_a_stick	3	textures/items/carrot_on_a_stick.png|||||
+399	0	Nether Star	nether_star	3	textures/items/nether_star.png|||||
+400	0	Pumpkin Pie	pumpkin_pie	3	textures/items/pumpkin_pie.png|||||
+401	0	Firework Rocket	fireworks	3	|||||
+402	0	Firework Star	firework_charge	3	|||||
+403	0	Enchanted Book	enchanted_book	3	|||||
+404	0	Redstone Comparator	comparator	3	|||||
+405	0	Nether Brick	netherbrick	3	|||||
+406	0	Nether Quartz	quartz	3	|||||
+407	0	Minecart with TNT	tnt_minecart	3	|||||
+408	0	Minecart with Hopper	hopper_minecart	3	|||||
+409	0	Prismarine Shard	prismarine_shard	3	textures/items/prismarine_shard.png|||||
+410	0	Prismarine Crystals	prismarine_crystals	3	textures/items/prismarine_crystals.png|||||
+411	0	Raw Rabbit	rabbit	3	|||||
+412	0	Cooked Rabbit	cooked_rabbit	3	|||||
+413	0	Rabbit Stew	rabbit_stew	3	textures/items/rabbit_stew.png|||||
+414	0	Rabbit's Foot	rabbit_foot	3	|||||
+415	0	Rabbit Hide	rabbit_hide	3	textures/items/rabbit_hide.png|||||
+416	0	Armor Stand	armor_stand	3	|||||
+417	0	Iron Horse Armor	iron_horse_armor	3	textures/items/iron_horse_armor.png|||||
+418	0	Golden Horse Armor	golden_horse_armor	3	|||||
+419	0	Diamond Horse Armor	diamond_horse_armor	3	textures/items/diamond_horse_armor.png|||||
+420	0	Lead	lead	3	textures/items/lead.png|||||
+421	0	Name Tag	name_tag	3	textures/items/name_tag.png|||||
+422	0	Minecart with Command Block	command_block_minecart	3	|||||
+423	0	Raw Mutton	mutton	3	|||||
+424	0	Cooked Mutton	cooked_mutton	3	|||||
+425	0	Banner	banner	3	|||||
+427	0	Spruce Door	spruce_door	3	|||||
+428	0	Birch Door	birch_door	3	|||||
+429	0	Jungle Door	jungle_door	3	|||||
+430	0	Acacia Door	acacia_door	3	|||||
+431	0	Dark Oak Door	dark_oak_door	3	|||||
+432	0	Chorus Fruit	chorus_fruit	3	textures/items/chorus_fruit.png|||||
+433	0	Popped Chorus Fruit	popped_chorus_fruit	3	|||||
+434	0	Beetroot	beetroot	3	textures/items/beetroot.png|||||
+435	0	Beetroot Seeds	beetroot_seeds	3	textures/items/beetroot_seeds.png|||||
+436	0	Beetroot Soup	beetroot_soup	3	textures/items/beetroot_soup.png|||||
+437	0	Dragon's Breath	dragon_breath	3	|||||
+438	0	Splash Potion	splash_potion	3	|||||
+439	0	Spectral Arrow	spectral_arrow	3	textures/items/spectral_arrow.png|||||
+440	0	Tipped Arrow	tipped_arrow	3	|||||
+441	0	Lingering Potion	lingering_potion	3	|||||
+442	0	Shield	shield	3	|||||
+443	0	Elytra	elytra	3	textures/items/elytra.png|||||
+444	0	Spruce Boat	spruce_boat	3	textures/items/spruce_boat.png|||||
+445	0	Birch Boat	birch_boat	3	textures/items/birch_boat.png|||||
+446	0	Jungle Boat	jungle_boat	3	textures/items/jungle_boat.png|||||
+447	0	Acacia Boat	acacia_boat	3	textures/items/acacia_boat.png|||||
+448	0	Dark Oak Boat	dark_oak_boat	3	textures/items/dark_oak_boat.png|||||
+449	0	Totem of Undying	totem_of_undying	3	|||||
+450	0	Shulker Shell	shulker_shell	3	textures/items/shulker_shell.png|||||
+452	0	Iron Nugget	iron_nugget	3	|||||
+2256	0	13 Disc	record_13	3	|||||
+2257	0	Cat Disc	record_cat	3	|||||
+2258	0	Blocks Disc	record_blocks	3	|||||
+2259	0	Chirp Disc	record_chirp	3	|||||
+2260	0	Far Disc	record_far	3	|||||
+2261	0	Mall Disc	record_mall	3	|||||
+2262	0	Mellohi Disc	record_mellohi	3	|||||
+2263	0	Stal Disc	record_stal	3	|||||
+2264	0	Strad Disc	record_strad	3	|||||
+2265	0	Ward Disc	record_ward	3	|||||
+2266	0	11 Disc	record_11	3	|||||
+2267	0	Wait Disc	record_wait	3	|||||
+

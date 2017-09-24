@@ -1,0 +1,33 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 30, 135, 0 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -45, 90, 0 ],
+            "translation": [ 0, -3, -6 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "thirdperson_righthand": {
+            "scale": [ 1, 1, 1 ]
+        }
+    },
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [
+        {   "__comment": "Center post",
+            "from": [  6,  0,  6 ],
+            "to"  : [ 10, 16, 10 ],
+            "faces": {
+                "west" : { "uv": [  6,  0, 10, 16 ], "texture": "#texture" },
+                "north": { "uv": [  6,  0, 10, 16 ], "texture": "#texture" },
+                "east" : { "uv": [  6,  0, 10, 16 ], "texture": "#texture" },
+                "south": { "uv": [  6,  0, 10, 16 ], "texture": "#texture" },
+                "down" : { "uv": [ 12,  8, 16, 12 ], "texture": "#texture", "cullface": "down" },
+                "up"   : { "uv": [ 12, 12, 16, 16 ], "texture": "#texture", "cullface": "up"   }
+            }
+        }
+    ]
+}
