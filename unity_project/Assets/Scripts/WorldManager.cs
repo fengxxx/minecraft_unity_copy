@@ -73,9 +73,9 @@ public class WorldManager : MonoBehaviour {
 					int z=((count/16)%16)+iz*16;
 					int y=(count/(16*16))+iy*16;
 
-					if(iy>=miny && iy<=maxy&&ix>=minx && ix<=maxx&& iz>=minz && iz<=maxz  && int.Parse(b)!=0 && (count/(16*16))>13 ){
-						//GameObject go = dm.createBlock(int.Parse(b));
-						//go.transform.position=new Vector3(x,  y, z);
+					if(iy>=miny && iy<=maxy&&ix>=minx && ix<=maxx&& iz>=minz && iz<=maxz  && int.Parse(b)!=0 && (count / (16 * 16)) > 7 ){
+						GameObject go = dm.createBlock(int.Parse(b));
+						go.transform.position=new Vector3(x,  y, z);
 						}
 
 				

@@ -52,7 +52,7 @@ for s in range(0,1024):
 	
 #print aa
 
-f.write(zz)
+f.write(aa)
 
 f.close()
 
