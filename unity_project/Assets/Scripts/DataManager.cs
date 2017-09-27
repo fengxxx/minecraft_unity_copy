@@ -12,6 +12,7 @@ public class DataManager : MonoBehaviour {
 	public GameObject blockObj;
 	public Mesh[] meshTypes;
 	public Block[] basicBlocks;
+	public Chunk[] chunks=new Chunk[10];
 	// Use this for initialization
 	void Start () {  
 
@@ -28,6 +29,7 @@ public class DataManager : MonoBehaviour {
 		itemsPath=Application.dataPath+ "/Resources/tables/itemsss.txt";
 		ArrayList itemsLines= LoadFile(itemsPath);
 		basicBlocks=new Block[itemsLines.Count];
+
 		int i=0;
 		foreach(string s in itemsLines ){
 			// Debug.Log(s);

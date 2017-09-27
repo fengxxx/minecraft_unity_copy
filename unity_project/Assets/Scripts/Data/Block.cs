@@ -15,10 +15,6 @@ public class Block  :MonoBehaviour{
 	public Texture2D [] texs;
 
 
-
-
-
-
 	public void updateInfo(){
 		//Block block =(Block) target;
 		DataManager dm=this.transform.parent.transform.parent.GetComponent<DataManager>();
