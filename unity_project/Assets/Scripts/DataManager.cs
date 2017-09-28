@@ -12,7 +12,7 @@ public class DataManager : MonoBehaviour {
 	public GameObject blockObj;
 	public Mesh[] meshTypes;
 	public Block[] basicBlocks;
-	public Chunk[] chunks=new Chunk[10];
+	public Chunk chunk=new Chunk();
 	// Use this for initialization
 	void Start () {  
 
