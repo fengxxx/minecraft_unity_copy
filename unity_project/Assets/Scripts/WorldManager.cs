@@ -267,7 +267,7 @@ public class WorldManager : MonoBehaviour {
             return true;
         }
 
-		if (y + 1 < 16)
+		if (y + 1 < 256)
 		{
 			if (chunk.storageArrays[sec].blocks[codeToIndex(x , y+1, z)] == 0)
 			{

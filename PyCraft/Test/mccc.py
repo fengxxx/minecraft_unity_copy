@@ -8,11 +8,17 @@ import os,sys,struct
 #a=anvil.open("r.1.1.mca")
 #//print a.indexs
 
-
+#print sys.platform
 dirName="F:\\Minecraft1.8\\.minecraft\\saves\\Rhion\\region\\"
+if sys.platform=="darwin":
+ 	dirName="/Users/fengx/Desktop/last/last/Minecraft_server_backup_15:7:30/Rhion/region/"
+
+
+print dirName
 def translateMCA(filename):
 	print(filename)
 	saveFilename=os.path.splitext(filename)[0]+".txt"
+	print saveFilename
 	f=open(saveFilename,'wb')
 	strs=""
 

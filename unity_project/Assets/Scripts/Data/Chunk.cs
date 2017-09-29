@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Chunk {//: MonoBehaviour  {
 	public Vector3 pos;
+    public Vector3 size = new Vector3(16,256,16); 
     public int index = 0;
     public int[] blocks_ID=new int[4096];
     public ExtendedBlockStorage[] storageArrays;
