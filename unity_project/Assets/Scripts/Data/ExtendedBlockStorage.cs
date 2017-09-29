@@ -7,6 +7,7 @@ public class ExtendedBlockStorage  {
     
     public char[] data ;
     public int[] blocks;
+    public int[] heightmap;
     public ExtendedBlockStorage()
     {
         data = new char[4096];

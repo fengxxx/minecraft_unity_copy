@@ -77,6 +77,10 @@ public class WorldManager : MonoBehaviour {
 
 
                 //Debug.Log(index);
+                for (int iih = 0; iih < 256; iih++)
+                {
+                    chunk.storageArrays[index].heightmap[iih] = br.ReadInt32();
+                }
                 int sec = br.ReadInt32();
                 //Debug.Log(sec);
                 chunk.storageArrays[index].yBase = index;
@@ -109,9 +113,9 @@ public class WorldManager : MonoBehaviour {
             }
         }
         s.Close();
-        
-        //Debug.Log(chunk.storageArrays[0].data[0]);
-        //Debug.Log(chunk.storageArrays[1].data[2]);
+
+        Debug.Log(chunk.storageArrays[0].heightmap[0]);
+        Debug.Log(chunk.storageArrays[0].heightmap[1]);
         //Debug.Log(chunk.storageArrays[0].data[2]);
         //Debug.Log(chunk.storageArrays[0].data[3]);
         //Debug.Log(chunk.storageArrays[0].data[4]);
@@ -161,38 +165,67 @@ public class WorldManager : MonoBehaviour {
         //	i+=1;
 
         //}
+
         int ebscount = 0;
-        
+        int countt = 0;
         foreach (ExtendedBlockStorage ebs in chunk.storageArrays)
         {
-            //Debug.Log(c.index);
-            if (ebscount < 1)
+            if (countt < 3)
             {
-                //int ix = c.index % 16 % 16;
-                //int iz = (c.index / 16) % 16;
-                //int iy = c.index / (16 * 16);
-                int countt = 0;
-                foreach (int id in ebs.blocks)
+                for (int ih = 0; ih < ebs.heightmap.Length; ih++)
                 {
-                    //Debug.Log(id);
-                    int x = (countt % 16 % 16);// + ix * 16;
-                    int z = ((countt / 16) % 16);// + iz * 16;
-                    int y = (countt / (16 * 16));// + iy * 16;
+                    int x = ih % 16;// + (countt % 16) * 16;
+                    int y = ebs.heightmap[ih];// - 1;
+                    int z = ih / 16;// + (countt /16) * 16;
 
-                    if (checkBlockRender(chunk, ebscount, countt) && id != 0)
+                    int ebsIndex = codeToIndex(x, y, z);
+                    
+
+                    if (ebsIndex>0)
                     {
+                        int id = ebs.blocks[ebsIndex];
                         GameObject go = dm.createBlock(id);
+                        int xx = x + (countt % 16) * 16;
+                        int yy = y;// - 1;
+                        int zz = z + (countt / 16) * 16;
                         go.transform.position = new Vector3(x, y, z);
-
                     }
-                    countt += 1;
+                    //}
                 }
             }
-            ebscount += 1;
+            countt += 1;
         }
-    } 
-	// Update is called once per frame
-	void Update () {
+
+        //    foreach (ExtendedBlockStorage ebs in chunk.storageArrays)
+        //    {
+        //        //Debug.Log(c.index);
+        //        if (ebscount < 1)
+        //        {
+        //            //int ix = c.index % 16 % 16;
+        //            //int iz = (c.index / 16) % 16;
+        //            //int iy = c.index / (16 * 16);
+        //            int countt = 0;
+        //            foreach (int id in ebs.blocks)
+        //            {
+        //                //Debug.Log(id);
+        //                int x = (countt % 16 % 16);// + ix * 16;
+        //                int z = ((countt / 16) % 16);// + iz * 16;
+        //                int y = (countt / (16 * 16));// + iy * 16;
+
+        //                if (checkBlockRender(chunk, ebscount, countt) && id != 0)
+        //                {
+        //                    GameObject go = dm.createBlock(id);
+        //                    go.transform.position = new Vector3(x, y, z);
+
+        //                }
+        //                countt += 1;
+        //            }
+        //        }
+        //        ebscount += 1;
+        //    }
+    }
+    // Update is called once per frame
+    void Update () {
 		
 	}
 
@@ -222,20 +255,17 @@ public class WorldManager : MonoBehaviour {
         return mesh;
     }
 
+   
     int codeToIndex(int x,int y,int z){
-
         int  index = z  * 16 + x + 256 * y;
-
-        if (index>4095)
-        {
-
-			Debug.Log(index);
-			Debug.Log(x);
-			Debug.Log(y);
-			Debug.Log(z);
-        }
+   //     if (index>4095)
+   //     {
+			//Debug.Log(index);
+			//Debug.Log(x);
+			//Debug.Log(y);
+			//Debug.Log(z);
+   //     }
         return index;
-
     }
 
     bool checkBlockRender(Chunk chunk,int sec, int index){
@@ -244,7 +274,6 @@ public class WorldManager : MonoBehaviour {
 		int x = (index % 16 % 16);
 		int z = ((index / 16) % 16);
 		int y = (index / (16 * 16));
-
 
         if (x + 1 < 16)
         {
@@ -255,7 +284,6 @@ public class WorldManager : MonoBehaviour {
         }else{
             return true;
         }
-
         if (x - 1 > 0)
         {
             if (chunk.storageArrays[sec].blocks[codeToIndex(x - 1, y, z)] == 0)
@@ -263,10 +291,8 @@ public class WorldManager : MonoBehaviour {
                 return true;
             }
         }else{
-
             return true;
         }
-
 		if (y + 1 < 256)
 		{
 			if (chunk.storageArrays[sec].blocks[codeToIndex(x , y+1, z)] == 0)
@@ -278,7 +304,6 @@ public class WorldManager : MonoBehaviour {
 		{
 			return true;
 		}
-
 		if (y - 1 > 0)
 		{
 			if (chunk.storageArrays[sec].blocks[codeToIndex(x , y- 1, z)] == 0)
@@ -288,10 +313,8 @@ public class WorldManager : MonoBehaviour {
 		}
 		else
 		{
-
 			return true;
 		}
-
 		if (z + 1 < 16)
 		{
 			if (chunk.storageArrays[sec].blocks[codeToIndex(x, y, z+1)] == 0)
@@ -303,7 +326,6 @@ public class WorldManager : MonoBehaviour {
 		{
 			return true;
 		}
-
 		if (z - 1 > 0)
 		{
 			if (chunk.storageArrays[sec].blocks[codeToIndex(x, y , z-1)] == 0)

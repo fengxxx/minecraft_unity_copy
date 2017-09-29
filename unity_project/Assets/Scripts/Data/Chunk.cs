@@ -8,12 +8,15 @@ public class Chunk {//: MonoBehaviour  {
     public int index = 0;
     public int[] blocks_ID=new int[4096];
     public ExtendedBlockStorage[] storageArrays;
+
     public Chunk()
     {
         storageArrays = new ExtendedBlockStorage[1024];
+       
         for (int i = 0; i < storageArrays.Length; i++)
         {
             storageArrays[i] = new ExtendedBlockStorage();
+            storageArrays[i].heightmap = new int[256];
         }
     }
     // Use this for initialization

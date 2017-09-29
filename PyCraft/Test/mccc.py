@@ -14,11 +14,11 @@ if sys.platform=="darwin":
  	dirName="/Users/fengx/Desktop/last/last/Minecraft_server_backup_15:7:30/Rhion/region/"
 
 
-print dirName
+print( dirName)
 def translateMCA(filename):
 	print(filename)
 	saveFilename=os.path.splitext(filename)[0]+".txt"
-	print saveFilename
+	print (saveFilename)
 	f=open(saveFilename,'wb')
 	strs=""
 
@@ -32,6 +32,8 @@ def translateMCA(filename):
 		bs+=struct.pack('i',s)
 		if c!=None:
 			bs+=struct.pack('i', len(c[u'Level'][u'Sections']))
+			
+			bs+=struct.pack('256i',*c[u'Level'][u"HeightMap"]) 
 			for sec in  c[u'Level'][u'Sections']:
 				count=0
 				# for b in sec[u'Blocks']:
