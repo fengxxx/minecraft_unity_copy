@@ -12,9 +12,8 @@ import os,sys,struct
 dirName="F:\\Minecraft1.8\\.minecraft\\saves\\Rhion\\region\\"
 if sys.platform=="darwin":
  	dirName="/Users/fengx/Desktop/last/last/Minecraft_server_backup_15:7:30/Rhion/region/"
+# print( dirName)
 
-
-print( dirName)
 def translateMCA(filename):
 	print(filename)
 	saveFilename=os.path.splitext(filename)[0]+".txt"
@@ -24,18 +23,19 @@ def translateMCA(filename):
 
 	bs=b''
 	a=anvil.open(filename)
-	for s in range(0,50):
+	for s in range(0,1024):
 		#print(s)
 		c= a.load_chunk(s)
 		#print (c)
 		# ac=""
-		bs+=struct.pack('i',s)
+		
 		if c!=None:
+			bs+=struct.pack('i',s)
 			bs+=struct.pack('i', len(c[u'Level'][u'Sections']))
 			
 			bs+=struct.pack('256i',*c[u'Level'][u"HeightMap"]) 
 			for sec in  c[u'Level'][u'Sections']:
-				count=0
+				# count=0
 				# for b in sec[u'Blocks']:
 				# 	# x=count%16%16
 				# 	# z=count/(16*16)
@@ -61,10 +61,14 @@ def translateMCA(filename):
 	print("done: "+filename)
 count=0
 for f in os.listdir(dirName):
-	if os.path.splitext(f)[1]==".mca" and count<5:
+	
+
+	if os.path.splitext(f)[1]==".mca" and count<1:
+		translateMCA(dirName+f)
+	elif os.path.split(f)[1]=="r.0.-1.mca":
 		translateMCA(dirName+f)
 	count+=1
-
+	
 
 
 

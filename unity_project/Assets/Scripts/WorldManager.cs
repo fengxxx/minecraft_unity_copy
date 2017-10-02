@@ -43,46 +43,53 @@ public class WorldManager : MonoBehaviour {
 
     public void CreateWorld(){
         chunk = new Chunk();
-        // int maxx=50;
-        // int maxy=50;
-        // int maxz=256;
-        // int z=1;
-        // for(int x=0;x<maxx;x++){
-        // 	for(int y=0;y<maxy;y++){
-        // 			float md=Mathf.PerlinNoise(x*0.02f, y*0.02f);
-        // 			if(md<0.5){
-        // 				GameObject go = dm.createBlock(1);
-        // 				go.transform.position=new Vector3(x,(int)md*100,y);
-        // 			}
-        // 		}
-        // }
-        // if(chunks.Length==0){
-        // 	chunks=new Chunk[10];
-        // }
+		// int maxx=50;
+		// int maxy=50;
+		// int maxz=256;
+		// int z=1;
+		// for(int x=0;x<maxx;x++){
+		// 	for(int y=0;y<maxy;y++){
+		// 			float md=Mathf.PerlinNoise(x*0.02f, y*0.02f);
+		// 			if(md<0.5){
+		// 				GameObject go = dm.createBlock(1);
+		// 				go.transform.position=new Vector3(x,(int)md*100,y);
+		// 			}
+		// 		}
+		// }
+		// if(chunks.Length==0){
+		// 	chunks=new Chunk[10];
+		// }
 
-        string itemsPath=Application.dataPath+ "/Resources/tables/r.-1.-1.txt";
+
+		//string itemsPath = Application.dataPath + "/Resources/tables/r.-1.-1.txt";
+		//string itemsPath = Application.dataPath + "/Resources/tables/r.3.-9.txt";
+		//string itemsPath = Application.dataPath + "/Resources/tables/r.3.8.txt";
+		//string itemsPath = Application.dataPath + "/Resources/tables/r.14.-5.txt";
+		//string itemsPath = Application.dataPath + "/Resources/tables/r.-6.-3.txt";
+		string itemsPath=Application.dataPath+ "/Resources/tables/r.0.-1.txt";
+
+
         Stream s = new FileStream(itemsPath, FileMode.Open);
         BinaryReader br = new BinaryReader(s);
        
         //int iCount = br.ReadInt64();
         int index = br.ReadInt32();
-        
+		
         
         //chunk.storageArrays = new ExtendedBlockStorage[16];
         //chunk.index = index;
 
         while (index!=-1) {
-            if (index == 0)
+            if (index <1026&&index>=0)
             {
 
-
-                //Debug.Log(index);
+				int sec = br.ReadInt32();
+                Debug.Log(index.ToString()+"::"+sec.ToString());
                 for (int iih = 0; iih < 256; iih++)
                 {
                     chunk.storageArrays[index].heightmap[iih] = br.ReadInt32();
                 }
-                int sec = br.ReadInt32();
-                //Debug.Log(sec);
+            
                 chunk.storageArrays[index].yBase = index;
                 chunk.storageArrays[index].blocks = new int[sec * 4096];
                 for (int i = 0; i < sec; i++)
@@ -114,115 +121,39 @@ public class WorldManager : MonoBehaviour {
         }
         s.Close();
 
-        Debug.Log(chunk.storageArrays[0].heightmap[0]);
-        Debug.Log(chunk.storageArrays[0].heightmap[1]);
-        //Debug.Log(chunk.storageArrays[0].data[2]);
-        //Debug.Log(chunk.storageArrays[0].data[3]);
+        //Debug.Log(chunk.storageArrays[0].heightmap[0]);
+        //Debug.Log(chunk.storageArrays[1].heightmap[1]);
+        //Debug.Log(chunk.storageArrays[2].heightmap[2]);
+        //Debug.Log(chunk.storageArrays[3].heightmap[3]);
         //Debug.Log(chunk.storageArrays[0].data[4]);
         //Debug.Log(chunk.storageArrays[0].data[5]);
-
-        //      int i=0;
-        //foreach(string s in DataManager.LoadFile(itemsPath)){
-        //	if(s!=""){
-        //		string[] ss=s.Split('|');
-
-        //		int index=int.Parse(ss[0]);
-        //              Chunk chunk = new Chunk();
-        //              chunk.index = index;
-        //		int ix=index%16%16;
-        //		int iz=(index/16)%16; 
-        //		int iy=index/(16*16);
-        //		//Debug.Log(index);
-        //		//Debug.Log(new Vector3( ix,  iy, iz));
-        //		// if(index==0){
-        //		// 	createObject();
-        //		// }
-        //		int count=0;
-        //		//Debug.Log(ss[1].Split(' '));
-        //		//Debug.Log(ss[1].Split(' ').Length);
-        //		foreach (string b in ss[1].Split(' ')){
-        //                  // if(count<10){
-        //                  // 	Debug.Log(int.Parse(b));
-        //                  // }
-        //                  if (b!="")
-        //                  {
-        //                      chunk.blocks_ID[count] = int.Parse(b);
-        //			    int x=(count%16%16)+ix*16;
-        //			    int z=((count/16)%16)+iz*16;
-        //			    int y=(count/(16*16))+iy*16;
-
-        //			    if(iy>=miny && iy<=maxy&&ix>=minx && ix<=maxx&& iz>=minz && iz<=maxz  && int.Parse(b)!=0 && (count/(16*16))>13 ){
-        //				    //GameObject go = dm.createBlock(int.Parse(b));
-        //				    //go.transform.position=new Vector3(x,  y, z);
-        //				    }
-        //                  }
-        //                  count +=1;
-        //                  chunks.Add(chunk);
-        //              }
-
-
-        //	}
-        //	i+=1;
-
-        //}
-
-        int ebscount = 0;
         int countt = 0;
         foreach (ExtendedBlockStorage ebs in chunk.storageArrays)
         {
-            if (countt < 3)
+            if (countt < 1200)
             {
                 for (int ih = 0; ih < ebs.heightmap.Length; ih++)
                 {
                     int x = ih % 16;// + (countt % 16) * 16;
-                    int y = ebs.heightmap[ih];// - 1;
+                    int y = ebs.heightmap[ih] - 1;
                     int z = ih / 16;// + (countt /16) * 16;
-
                     int ebsIndex = codeToIndex(x, y, z);
-                    
-
                     if (ebsIndex>0)
                     {
                         int id = ebs.blocks[ebsIndex];
-                        GameObject go = dm.createBlock(id);
-                        int xx = x + (countt % 16) * 16;
-                        int yy = y;// - 1;
-                        int zz = z + (countt / 16) * 16;
-                        go.transform.position = new Vector3(x, y, z);
+                        if (id !=0&&id!=9)
+                        {
+                            GameObject go = dm.createBlock(id);
+                            int xx = x + (countt % 32) * 16;
+                            int yy = y;// - 1;
+                            int zz = z+ (countt / 32) * 16;
+                            go.transform.position = new Vector3(xx, yy, zz);
+						}
                     }
-                    //}
                 }
             }
             countt += 1;
         }
-
-        //    foreach (ExtendedBlockStorage ebs in chunk.storageArrays)
-        //    {
-        //        //Debug.Log(c.index);
-        //        if (ebscount < 1)
-        //        {
-        //            //int ix = c.index % 16 % 16;
-        //            //int iz = (c.index / 16) % 16;
-        //            //int iy = c.index / (16 * 16);
-        //            int countt = 0;
-        //            foreach (int id in ebs.blocks)
-        //            {
-        //                //Debug.Log(id);
-        //                int x = (countt % 16 % 16);// + ix * 16;
-        //                int z = ((countt / 16) % 16);// + iz * 16;
-        //                int y = (countt / (16 * 16));// + iy * 16;
-
-        //                if (checkBlockRender(chunk, ebscount, countt) && id != 0)
-        //                {
-        //                    GameObject go = dm.createBlock(id);
-        //                    go.transform.position = new Vector3(x, y, z);
-
-        //                }
-        //                countt += 1;
-        //            }
-        //        }
-        //        ebscount += 1;
-        //    }
     }
     // Update is called once per frame
     void Update () {
